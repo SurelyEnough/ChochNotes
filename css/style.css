@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.logo-text {
+  font-size: 2.5rem;
+}
+
+.logo-image {
+  height: 60px;
+  margin-left: 3rem;
+  margin-right: 0.5rem;
+}
+
+header {
+  display: flex;
+  padding-bottom: 0;
+  font-family: Poppins, sans-serif;
+  align-items: center;
+  margin-bottom: -1.3rem;
+}
+
+.menu-button-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: 3rem;
+  gap: 20px;
+}
+
+.menu-button {
+  margin-top: 7px;
+  font-family: Poppins, sans-serif;
+  padding: 2rem 1rem;
+  text-align: bottom;
+  font-weight: bold;
+  line-height: 1;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  user-select: none;
+}
+
+.banner {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(92, 109, 219);
+  padding-left: 90px;
+  padding-bottom: 15px;
+  display: block;
+  margin: 0;
+}
+
+.banner-button {
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  border-radius: 30px;
+  padding: 7px 15px 7px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: white;
+  color: black;
+}
+
+.unselected {
+  background-color: rgb(70, 82, 158);
+  color: rgb(230, 230, 230);
+}
+
+.content-wrapper {
+  padding: 20px 75px 20px 75px;
+}
+
+.content-title {
+  font-family: Poppins, sans-serif;
+}
+
+.content-text {
+  font-family: Nunito Sans, sans-serif;
+}
