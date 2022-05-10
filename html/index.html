@@ -1,67 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/style.css" />
     <title>ChochNotes</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <img class="logo-image" src="../images/logo.png" alt="A photo of a fox"></img>
-        <h1 class="logo-text">
-            <span style="color: rgb(66, 66, 66)">choch</span><span style="color: rgb(92, 109, 219)">notes</span>
-        </h1>
-        <div class="menu-button-container">
-            <a class="menu-button" href="https://www.youtube.com/watch?v=oHg5SJYRHA0" target="_blank">About</a>
-            <a class="menu-button" href="https://github.com/SurelyEnough/ChochNotes" target="_blank">Github</a>
-        </div>
+      <img class="logo-image" src="../images/logo.png" alt="A photo of a fox" />
+      <h1 class="logo-text">
+        <span style="color: rgb(66, 66, 66)">choch</span
+        ><span style="color: rgb(92, 109, 219)">notes</span>
+      </h1>
+      <div class="menu-button-container">
+        <a
+          class="menu-button"
+          href="https://www.youtube.com/watch?v=oHg5SJYRHA0"
+          target="_blank"
+          >About</a
+        >
+        <a
+          class="menu-button"
+          href="https://github.com/SurelyEnough/ChochNotes"
+          target="_blank"
+          >Github</a
+        >
+      </div>
     </header>
     <div class="banner">
-        <h1 style="padding-left: 10px; padding-top: 15px; font-style: bold;">Strangers <span style="color:rgb(175, 175, 175)">Study Guide</span></h1>
-        <h3 style="padding-left: 10px" style="margin-bottom: 1px;">David A. Robertson</h3>
-        <div class="menu-button-container" style="padding: 0; margin-left: 10px; gap: 1rem">
-            <button id="character-analysis-button" class="banner-button selected" onclick="hideLayer('elements-of-form-and-style'); hideLayer('interviews'); hideLayer('quizzes'); showLayer('character-analysis')">Characters</button>
-            <button id="elements-of-form-and-style-button" class="banner-button unselected" onclick="hideLayer('character-analysis'); hideLayer('interviews'); hideLayer('quizzes'); showLayer('elements-of-form-and-style')">Elements of Form and Style</button>
-            <button id="interviews-button" class="banner-button unselected" onclick="hideLayer('elements-of-form-and-style'); hideLayer('character-analysis'); hideLayer('quizzes'); showLayer('interviews')">Interviews</button>
-            <button id="quizzes-button" class="banner-button unselected" onclick="hideLayer('elements-of-form-and-style'); hideLayer('interviews'); hideLayer('character-analysis'); showLayer('quizzes')">Quizzes</button>
-        </div>
+      <h1 style="padding-left: 10px; padding-top: 15px; font-style: bold">
+        Strangers <span style="color: rgb(175, 175, 175)">Study Guide</span>
+      </h1>
+      <h3 style="padding-left: 10px" style="margin-bottom: 1px">
+        David A. Robertson
+      </h3>
+      <div
+        class="menu-button-container"
+        style="padding: 0; margin-left: 10px; gap: 1rem"
+      >
+        <button
+          id="character-analysis-button"
+          class="banner-button selected"
+          onclick="hideLayer('elements-of-form-and-style'); hideLayer('interviews'); hideLayer('quizzes'); showLayer('character-analysis')"
+        >
+          Characters
+        </button>
+        <button
+          id="elements-of-form-and-style-button"
+          class="banner-button unselected"
+          onclick="hideLayer('character-analysis'); hideLayer('interviews'); hideLayer('quizzes'); showLayer('elements-of-form-and-style')"
+        >
+          Elements of Form and Style
+        </button>
+        <button
+          id="interviews-button"
+          class="banner-button unselected"
+          onclick="hideLayer('elements-of-form-and-style'); hideLayer('character-analysis'); hideLayer('quizzes'); showLayer('interviews')"
+        >
+          Interviews
+        </button>
+        <button
+          id="quizzes-button"
+          class="banner-button unselected"
+          onclick="hideLayer('elements-of-form-and-style'); hideLayer('interviews'); hideLayer('character-analysis'); showLayer('quizzes')"
+        >
+          Quizzes
+        </button>
+      </div>
     </div>
     <div class="content-wrapper">
-        <div id="character-analysis">
-            <h1 class="content-title">Characters</h1>
-            <p class="content-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe quis, quasi eaque voluptatum, facilis iste aut, voluptates deserunt facere sint natus sequi? Aperiam, quae nulla animi placeat asperiores voluptatibus optio in eaque earum sit
-                libero, aut deserunt, iure ipsa suscipit esse minima? Nihil eligendi, at et recusandae sed quibusdam nulla?</p>
-        </div>
-        <div id="elements-of-form-and-style" style="display: none">
-            <h1 class="content-title">Elements of Form and Style</h1>
-            <p class="content-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe quis, quasi eaque voluptatum, facilis iste aut, voluptates deserunt facere sint natus sequi? Aperiam, quae nulla animi placeat asperiores voluptatibus optio in eaque earum sit
-                libero, aut deserunt, iure ipsa suscipit esse minima? Nihil eligendi, at et recusandae sed quibusdam nulla?</p>
-        </div>
-        <div id="interviews" style="display: none">
-            <h1 class="content-title">Interviews</h1>
-            <p class="content-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe quis, quasi eaque voluptatum, facilis iste aut, voluptates deserunt facere sint natus sequi? Aperiam, quae nulla animi placeat asperiores voluptatibus optio in eaque earum sit
-                libero, aut deserunt, iure ipsa suscipit esse minima? Nihil eligendi, at et recusandae sed quibusdam nulla?</p>
-        </div>
-        <div id="quizzes" style="display: none">
-            <h1 class="content-title">Quizzes</h1>
-            <p class="content-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe quis, quasi eaque voluptatum, facilis iste aut, voluptates deserunt facere sint natus sequi? Aperiam, quae nulla animi placeat asperiores voluptatibus optio in eaque earum sit
-                libero, aut deserunt, iure ipsa suscipit esse minima? Nihil eligendi, at et recusandae sed quibusdam nulla?</p>
-        </div>
+      <div id="character-analysis">
+        <h1 class="content-title">Characters</h1>
+        <p class="content-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe quis,
+          quasi eaque voluptatum, facilis iste aut, voluptates deserunt facere
+          sint natus sequi? Aperiam, quae nulla animi placeat asperiores
+          voluptatibus optio in eaque earum sit libero, aut deserunt, iure ipsa
+          suscipit esse minima? Nihil eligendi, at et recusandae sed quibusdam
+          nulla?
+        </p>
+      </div>
+      <div id="elements-of-form-and-style" style="display: none">
+        <h1 class="content-title">Elements of Form and Style</h1>
+        <p class="content-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe quis,
+          quasi eaque voluptatum, facilis iste aut, voluptates deserunt facere
+          sint natus sequi? Aperiam, quae nulla animi placeat asperiores
+          voluptatibus optio in eaque earum sit libero, aut deserunt, iure ipsa
+          suscipit esse minima? Nihil eligendi, at et recusandae sed quibusdam
+          nulla?
+        </p>
+      </div>
+      <div id="interviews" style="display: none">
+        <h1 class="content-title">Interviews</h1>
+        <p class="content-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe quis,
+          quasi eaque voluptatum, facilis iste aut, voluptates deserunt facere
+          sint natus sequi? Aperiam, quae nulla animi placeat asperiores
+          voluptatibus optio in eaque earum sit libero, aut deserunt, iure ipsa
+          suscipit esse minima? Nihil eligendi, at et recusandae sed quibusdam
+          nulla?
+        </p>
+      </div>
+      <div id="quizzes" style="display: none">
+        <h1 class="content-title">Quizzes</h1>
+        <p class="content-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe quis,
+          quasi eaque voluptatum, facilis iste aut, voluptates deserunt facere
+          sint natus sequi? Aperiam, quae nulla animi placeat asperiores
+          voluptatibus optio in eaque earum sit libero, aut deserunt, iure ipsa
+          suscipit esse minima? Nihil eligendi, at et recusandae sed quibusdam
+          nulla?
+        </p>
+      </div>
     </div>
     <footer>
-        <h3>The #1 study site for <span style="font-style: italic">Strangers</span></h3>
-        <a class="footer-button" href="mailto:ddai@southridge.bc.ca" target="_blank">Contact Us</a>
-        <a class="footer-button" href="https://www.youtube.com/watch?v=SB-qEYVdvXA" target="_blank">Terms of Service</a>
-        <a class="footer-button" href="https://www.youtube.com/watch?v=SB-qEYVdvXA" target="_blank">Privacy</a>
+      <h3>
+        The #1 study site for <span style="font-style: italic">Strangers</span>
+      </h3>
+      <a
+        class="footer-button"
+        href="mailto:ddai@southridge.bc.ca"
+        target="_blank"
+        >Contact Us</a
+      >
+      <a
+        class="footer-button"
+        href="https://www.youtube.com/watch?v=SB-qEYVdvXA"
+        target="_blank"
+        >Terms of Service</a
+      >
+      <a
+        class="footer-button"
+        href="https://www.youtube.com/watch?v=SB-qEYVdvXA"
+        target="_blank"
+        >Privacy</a
+      >
     </footer>
-</body>
-<script src="../js/script.js"></script>
-
+  </body>
+  <script src="../js/script.js"></script>
 </html>
