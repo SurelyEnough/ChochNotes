@@ -88,6 +88,10 @@ header {
   font-family: inherit;
 }
 
+.plain-text {
+  width: 70vw;
+}
+
 footer {
   padding-left: 75px;
   display: flex;
