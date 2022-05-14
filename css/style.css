@@ -62,6 +62,7 @@ header {
   padding: 7px 15px 7px 15px;
   font-weight: bold;
   cursor: pointer;
+  border: 2px solid;
 }
 
 .selected {
