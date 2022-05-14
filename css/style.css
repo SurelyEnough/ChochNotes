@@ -75,7 +75,7 @@ header {
 }
 
 .content-wrapper {
-  padding: 20px 75px 20px 75px;
+  padding: 20px 75px 7rem 75px;
   display: flex;
   font-family: Nunito Sans, sans-serif;
 }
@@ -93,16 +93,15 @@ header {
 }
 
 footer {
+  width: 100vw;
   padding-left: 75px;
   display: flex;
-  padding-bottom: 0;
   font-family: Poppins, sans-serif;
   align-items: center;
   background-color: rgb(46, 46, 46);
   color: rgb(170, 170, 170);
   height: 7rem;
   gap: 4rem;
-  margin-bottom: 0;
 }
 
 .footer-button {
