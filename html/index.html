@@ -1,410 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;700&display=swap"
+            rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css/style.css?" />
+    <link rel="stylesheet" href="../css/style.css?"/>
     <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/apple-touch-icon.png?"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/favicon-32x32.png?"
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png?"
     />
     <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/favicon-16x16.png?"
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png?"
     />
-    <link rel="manifest" href="/site.webmanifest?" />
-    <link rel="mask-icon" href="/safari-pinned-tab.svg?" color="#5bbad5" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
+    <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png?"
+    />
+    <link rel="manifest" href="/site.webmanifest?"/>
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?" color="#5bbad5"/>
+    <meta name="msapplication-TileColor" content="#da532c"/>
+    <meta name="theme-color" content="#ffffff"/>
     <title>Home | ChochNotes</title>
-  </head>
+</head>
 
-  <body>
-    <header>
-      <img class="logo-image" src="../images/logo.png" alt="A photo of a fox" />
-      <a class="logo-text" href="index.html">
+<body>
+<header>
+    <img class="logo-image" src="../images/logo.png" alt="A photo of a fox"/>
+    <a class="logo-text" href="index.html">
         <span style="color: rgb(66, 66, 66)">choch</span
         ><span style="color: rgb(92, 109, 219)">notes</span>
-      </a>
-      <div class="menu-button-container">
+    </a>
+    <div class="menu-button-container">
         <a class="menu-button" href="index.html">Home</a>
         <a class="menu-button" href="about.html">About</a>
         <a
-          class="menu-button"
-          href="https://github.com/SurelyEnough/ChochNotes"
-          target="_blank"
-          >Github</a
-        >a
-      </div>
-    </header>
-    <div class="banner">
-      <h1 style="padding-left: 10px; padding-top: 15px">
-        Strangers <span style="color: rgb(175, 175, 175)">Study Guide</span>
-      </h1>
-      <h3 style="padding-left: 10px; margin-bottom: 20px">
-        David A. Robertson
-      </h3>
-      <div
-        class="menu-button-container"
-        style="padding: 0; margin-left: 10px; gap: 1rem"
-      >
-        <button
-          id="overview-button"
-          class="banner-button selected"
-          onclick="hideLayer('character-analysis'); hideLayer('elements-of-form-and-style'); hideLayer('interviews'); hideLayer('quizzes'); showLayer('overview')"
+                class="menu-button"
+                href="https://github.com/SurelyEnough/ChochNotes"
+                target="_blank"
+        >Github</a
         >
-          Overview
-        </button>
-        <button
-          id="character-analysis-button"
-          class="banner-button unselected"
-          onclick="hideLayer('overview'); hideLayer('elements-of-form-and-style'); hideLayer('interviews'); hideLayer('quizzes'); showLayer('character-analysis')"
-        >
-          Characters
-        </button>
-        <button
-          id="elements-of-form-and-style-button"
-          class="banner-button unselected"
-          onclick="hideLayer('overview'); hideLayer('character-analysis'); hideLayer('interviews'); hideLayer('quizzes'); showLayer('elements-of-form-and-style')"
-        >
-          Literary Devices
-        </button>
-        <button
-          id="interviews-button"
-          class="banner-button unselected"
-          onclick="hideLayer('overview'); hideLayer('elements-of-form-and-style'); hideLayer('character-analysis'); hideLayer('quizzes'); showLayer('interviews')"
-        >
-          Interviews
-        </button>
-        <button
-          id="quizzes-button"
-          class="banner-button unselected"
-          onclick="hideLayer('overview'); hideLayer('elements-of-form-and-style'); hideLayer('interviews'); hideLayer('character-analysis'); showLayer('quizzes')"
-        >
-          Quizzes
-        </button>
-      </div>
     </div>
-    <div class="content-wrapper">
-      <div id="overview">
+</header>
+<div class="banner">
+    <h1 style="padding-left: 10px; padding-top: 15px">
+        Strangers <span style="color: rgb(175, 175, 175)">Study Guide</span>
+    </h1>
+    <h3 style="padding-left: 10px; margin-bottom: 20px">
+        David A. Robertson
+    </h3>
+    <div
+            class="menu-button-container"
+            style="padding: 0; margin-left: 10px; gap: 1rem"
+    >
+        <button
+                id="overview-button"
+                class="banner-button selected"
+                onclick="hideLayer('character-analysis'); hideLayer('elements-of-form-and-style'); hideLayer('interviews'); hideLayer('quizzes'); showLayer('overview')"
+        >
+            Overview
+        </button>
+        <button
+                id="character-analysis-button"
+                class="banner-button unselected"
+                onclick="hideLayer('overview'); hideLayer('elements-of-form-and-style'); hideLayer('interviews'); hideLayer('quizzes'); showLayer('character-analysis')"
+        >
+            Characters
+        </button>
+        <button
+                id="elements-of-form-and-style-button"
+                class="banner-button unselected"
+                onclick="hideLayer('overview'); hideLayer('character-analysis'); hideLayer('interviews'); hideLayer('quizzes'); showLayer('elements-of-form-and-style')"
+        >
+            Literary Devices
+        </button>
+        <button
+                id="interviews-button"
+                class="banner-button unselected"
+                onclick="hideLayer('overview'); hideLayer('elements-of-form-and-style'); hideLayer('character-analysis'); hideLayer('quizzes'); showLayer('interviews')"
+        >
+            Interviews
+        </button>
+        <button
+                id="quizzes-button"
+                class="banner-button unselected"
+                onclick="hideLayer('overview'); hideLayer('elements-of-form-and-style'); hideLayer('interviews'); hideLayer('character-analysis'); showLayer('quizzes')"
+        >
+            Quizzes
+        </button>
+    </div>
+</div>
+<div class="content-wrapper">
+    <div id="overview">
         <h1 class="content-title">Overview</h1>
         <p class="content-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          animi hic voluptate recusandae necessitatibus quas soluta illum eum,
-          laborum expedita distinctio tempora tenetur ab velit, cum aperiam
-          perferendis amet modi. Sequi, tempora quasi inventore odit explicabo
-          est porro iure facilis ex sunt id necessitatibus suscipit
-          exercitationem natus eius dolores nihil repellendus quia dolore magnam
-          repellat ea iusto. Cumque dolorum pariatur modi eveniet, dignissimos
-          enim. Facilis voluptatibus nisi officiis quasi deleniti sint, omnis
-          explicabo, nulla perferendis, veritatis sed ullam ea consectetur! Vero
-          animi cupiditate voluptatum doloremque laborum, aspernatur impedit,
-          ipsum earum recusandae consequuntur mollitia perspiciatis iusto ullam,
-          inventore eum blanditiis amet autem id? Excepturi eum consequatur
-          perferendis labore molestias! Perspiciatis officia dolores doloremque
-          vitae vel fugit eaque laborum laboriosam atque eos nobis repellendus,
-          dolore quibusdam quam reiciendis omnis ipsam. Tenetur eius rem eum
-          sequi quae. Corrupti illum voluptatum culpa animi suscipit aliquam
-          magnam consequuntur similique dolore incidunt ullam quibusdam nostrum
-          odit laudantium aperiam praesentium debitis laborum molestias voluptas
-          dolorem, amet deserunt? Recusandae, nulla. Totam laudantium doloribus
-          atque laborum nemo et, ipsam corporis obcaecati. Commodi, tempore
-          beatae animi enim dolores itaque? Esse, saepe suscipit quam animi
-          reprehenderit cumque nihil architecto aspernatur maiores. Veniam a ut
-          consequuntur ad repudiandae. Pariatur facere error iure quae. Sint
-          laudantium repellendus soluta nostrum earum similique totam harum ut
-          omnis, reiciendis deleniti dolorem, eligendi, temporibus ullam rem
-          dolorum voluptate perferendis explicabo laborum exercitationem nemo
-          nobis alias non. Iste, maxime nostrum? Hic iste asperiores aliquam
-          harum perferendis, delectus quod quo id ea repellendus dolor omnis
-          ducimus vero maxime doloremque!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            animi hic voluptate recusandae necessitatibus quas soluta illum eum,
+            laborum expedita distinctio tempora tenetur ab velit, cum aperiam
+            perferendis amet modi. Sequi, tempora quasi inventore odit explicabo
+            est porro iure facilis ex sunt id necessitatibus suscipit
+            exercitationem natus eius dolores nihil repellendus quia dolore magnam
+            repellat ea iusto. Cumque dolorum pariatur modi eveniet, dignissimos
+            enim. Facilis voluptatibus nisi officiis quasi deleniti sint, omnis
+            explicabo, nulla perferendis, veritatis sed ullam ea consectetur! Vero
+            animi cupiditate voluptatum doloremque laborum, aspernatur impedit,
+            ipsum earum recusandae consequuntur mollitia perspiciatis iusto ullam,
+            inventore eum blanditiis amet autem id? Excepturi eum consequatur
+            perferendis labore molestias! Perspiciatis officia dolores doloremque
+            vitae vel fugit eaque laborum laboriosam atque eos nobis repellendus,
+            dolore quibusdam quam reiciendis omnis ipsam. Tenetur eius rem eum
+            sequi quae. Corrupti illum voluptatum culpa animi suscipit aliquam
+            magnam consequuntur similique dolore incidunt ullam quibusdam nostrum
+            odit laudantium aperiam praesentium debitis laborum molestias voluptas
+            dolorem, amet deserunt? Recusandae, nulla. Totam laudantium doloribus
+            atque laborum nemo et, ipsam corporis obcaecati. Commodi, tempore
+            beatae animi enim dolores itaque? Esse, saepe suscipit quam animi
+            reprehenderit cumque nihil architecto aspernatur maiores. Veniam a ut
+            consequuntur ad repudiandae. Pariatur facere error iure quae. Sint
+            laudantium repellendus soluta nostrum earum similique totam harum ut
+            omnis, reiciendis deleniti dolorem, eligendi, temporibus ullam rem
+            dolorum voluptate perferendis explicabo laborum exercitationem nemo
+            nobis alias non. Iste, maxime nostrum? Hic iste asperiores aliquam
+            harum perferendis, delectus quod quo id ea repellendus dolor omnis
+            ducimus vero maxime doloremque!
         </p>
-      </div>
-      <div id="character-analysis" style="display: none">
+    </div>
+    <div id="character-analysis" style="display: none">
         <h1 class="content-title">Characters</h1>
         <h2 class="content-text">Cole</h2>
         <p class="content-text plain-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum fugit
-          officia quisquam placeat quaerat voluptas natus voluptatum provident
-          perferendis vero ducimus itaque illum ratione dignissimos sequi hic
-          quos autem modi, laudantium odit repudiandae. Itaque ducimus
-          blanditiis perspiciatis laborum perferendis aliquam animi, eum sunt.
-          At voluptatem dolorum quam totam nulla fugit ab veniam dolore
-          exercitationem accusamus, ullam, corrupti facilis laborum qui, quasi
-          voluptatibus? Quis, dignissimos quibusdam iste suscipit libero vero
-          assumenda perspiciatis iure id et quaerat facere modi voluptas at
-          sapiente odio quam, consequuntur nihil. Dignissimos incidunt impedit
-          ea cupiditate amet minus velit ipsa qui sapiente dolorem, officiis
-          optio esse perspiciatis libero blanditiis. Provident esse quis atque
-          tempora quas, maxime commodi amet veritatis, nesciunt deleniti nobis
-          laborum. Libero mollitia asperiores delectus doloremque odio hic, quae
-          atque a dolor magni nemo nam dignissimos adipisci optio autem
-          veritatis. Ipsum beatae accusantium et libero. Obcaecati dolorum dicta
-          quisquam aut architecto voluptatem facere temporibus eaque, quis
-          dolor, laboriosam ipsum vitae dolore nobis rem? Provident velit, earum
-          iure officia quaerat id quae consectetur molestias expedita in
-          adipisci, itaque quo repellendus, blanditiis aliquam nihil officiis.
-          Obcaecati eos rerum odio sequi nobis suscipit tempora et eaque, ut
-          molestiae, praesentium architecto modi maxime aliquid voluptates
-          aperiam asperiores porro. Fugiat amet, beatae laudantium quam, minus
-          nihil quis dicta, cumque suscipit neque quo animi! Ducimus iure
-          exercitationem tempora repellendus error. Quibusdam voluptate
-          distinctio, error eligendi voluptatem amet repellat dolore minima
-          nihil temporibus esse placeat adipisci optio maiores, saepe doloremque
-          ab consectetur itaque, expedita magni? Eligendi, libero laudantium.
-          Veniam eos soluta quas?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum fugit
+            officia quisquam placeat quaerat voluptas natus voluptatum provident
+            perferendis vero ducimus itaque illum ratione dignissimos sequi hic
+            quos autem modi, laudantium odit repudiandae. Itaque ducimus
+            blanditiis perspiciatis laborum perferendis aliquam animi, eum sunt.
+            At voluptatem dolorum quam totam nulla fugit ab veniam dolore
+            exercitationem accusamus, ullam, corrupti facilis laborum qui, quasi
+            voluptatibus? Quis, dignissimos quibusdam iste suscipit libero vero
+            assumenda perspiciatis iure id et quaerat facere modi voluptas at
+            sapiente odio quam, consequuntur nihil. Dignissimos incidunt impedit
+            ea cupiditate amet minus velit ipsa qui sapiente dolorem, officiis
+            optio esse perspiciatis libero blanditiis. Provident esse quis atque
+            tempora quas, maxime commodi amet veritatis, nesciunt deleniti nobis
+            laborum. Libero mollitia asperiores delectus doloremque odio hic, quae
+            atque a dolor magni nemo nam dignissimos adipisci optio autem
+            veritatis. Ipsum beatae accusantium et libero. Obcaecati dolorum dicta
+            quisquam aut architecto voluptatem facere temporibus eaque, quis
+            dolor, laboriosam ipsum vitae dolore nobis rem? Provident velit, earum
+            iure officia quaerat id quae consectetur molestias expedita in
+            adipisci, itaque quo repellendus, blanditiis aliquam nihil officiis.
+            Obcaecati eos rerum odio sequi nobis suscipit tempora et eaque, ut
+            molestiae, praesentium architecto modi maxime aliquid voluptates
+            aperiam asperiores porro. Fugiat amet, beatae laudantium quam, minus
+            nihil quis dicta, cumque suscipit neque quo animi! Ducimus iure
+            exercitationem tempora repellendus error. Quibusdam voluptate
+            distinctio, error eligendi voluptatem amet repellat dolore minima
+            nihil temporibus esse placeat adipisci optio maiores, saepe doloremque
+            ab consectetur itaque, expedita magni? Eligendi, libero laudantium.
+            Veniam eos soluta quas?
         </p>
         <h2 class="content-text">Choch</h2>
         <p class="content-text plain-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex laborum
-          accusamus atque iure harum ratione delectus. Velit, dolore
-          repellendus. Suscipit facilis eos impedit ex velit perspiciatis
-          officia natus eius possimus voluptates nobis ut deserunt odit, et quos
-          corporis enim debitis. Ex voluptas consequatur alias vero numquam
-          ullam laborum fuga similique. Quisquam, inventore repellendus. Error
-          fugiat reprehenderit minus eius! Tenetur repudiandae architecto sint!
-          Cum, quaerat. Natus eius earum error quos commodi repellendus!
-          Obcaecati, neque, possimus dignissimos atque id ad in ut at porro ex
-          incidunt animi consequuntur cum rem quidem ea, temporibus quas nihil
-          harum. Doloremque porro totam saepe eos, ratione odit fugiat at? Dicta
-          beatae minus aspernatur dolorem optio? Fuga tempora ea velit nam
-          minima eligendi quibusdam illo fugiat. Exercitationem optio, nobis
-          aspernatur eligendi delectus ipsam hic tempora in eos culpa,
-          perferendis voluptatem nostrum numquam aperiam quae a debitis?
-          Deserunt voluptates reiciendis soluta corrupti quasi veritatis
-          consequuntur quas numquam doloribus blanditiis incidunt omnis
-          distinctio, totam dolore libero nemo obcaecati? Eaque quam voluptate
-          sed porro sunt asperiores nostrum unde quisquam fugiat optio pariatur
-          exercitationem rem et odio enim impedit cumque nihil, a nisi alias
-          nulla sapiente. Eius doloremque saepe esse molestias odio. Cupiditate,
-          cumque. Ipsa minima incidunt magnam distinctio voluptatem ea,
-          deserunt, asperiores quis sequi quo nam! Repellendus, laborum labore
-          harum placeat iusto sit nostrum recusandae, facere animi voluptas
-          repellat ad voluptates explicabo nihil asperiores. Consequatur
-          impedit, maiores aliquam obcaecati repellat quam inventore minima
-          sapiente illo nesciunt quisquam labore. Consequuntur architecto sit,
-          voluptate necessitatibus impedit sequi temporibus perspiciatis cum quo
-          natus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex laborum
+            accusamus atque iure harum ratione delectus. Velit, dolore
+            repellendus. Suscipit facilis eos impedit ex velit perspiciatis
+            officia natus eius possimus voluptates nobis ut deserunt odit, et quos
+            corporis enim debitis. Ex voluptas consequatur alias vero numquam
+            ullam laborum fuga similique. Quisquam, inventore repellendus. Error
+            fugiat reprehenderit minus eius! Tenetur repudiandae architecto sint!
+            Cum, quaerat. Natus eius earum error quos commodi repellendus!
+            Obcaecati, neque, possimus dignissimos atque id ad in ut at porro ex
+            incidunt animi consequuntur cum rem quidem ea, temporibus quas nihil
+            harum. Doloremque porro totam saepe eos, ratione odit fugiat at? Dicta
+            beatae minus aspernatur dolorem optio? Fuga tempora ea velit nam
+            minima eligendi quibusdam illo fugiat. Exercitationem optio, nobis
+            aspernatur eligendi delectus ipsam hic tempora in eos culpa,
+            perferendis voluptatem nostrum numquam aperiam quae a debitis?
+            Deserunt voluptates reiciendis soluta corrupti quasi veritatis
+            consequuntur quas numquam doloribus blanditiis incidunt omnis
+            distinctio, totam dolore libero nemo obcaecati? Eaque quam voluptate
+            sed porro sunt asperiores nostrum unde quisquam fugiat optio pariatur
+            exercitationem rem et odio enim impedit cumque nihil, a nisi alias
+            nulla sapiente. Eius doloremque saepe esse molestias odio. Cupiditate,
+            cumque. Ipsa minima incidunt magnam distinctio voluptatem ea,
+            deserunt, asperiores quis sequi quo nam! Repellendus, laborum labore
+            harum placeat iusto sit nostrum recusandae, facere animi voluptas
+            repellat ad voluptates explicabo nihil asperiores. Consequatur
+            impedit, maiores aliquam obcaecati repellat quam inventore minima
+            sapiente illo nesciunt quisquam labore. Consequuntur architecto sit,
+            voluptate necessitatibus impedit sequi temporibus perspiciatis cum quo
+            natus.
         </p>
         <h2 class="context-text">Eva</h2>
         <p class="content-text">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo deserunt
-          fuga similique adipisci eum, laudantium aliquid. Veniam, quam
-          exercitationem mollitia aliquam sint autem earum accusamus voluptates,
-          quos repudiandae eaque blanditiis numquam inventore in dignissimos
-          laborum, voluptatum optio dolorum ea quo magnam doloribus fugit.
-          Accusantium, laborum sequi tempora natus, provident, voluptates
-          repellat dolorem placeat vero amet debitis. Provident temporibus
-          architecto hic, aliquid, voluptatem rem maiores iste reprehenderit vel
-          quos impedit molestiae incidunt nemo earum ipsum, unde quasi alias
-          doloremque cumque iure animi sit! Sed tempore voluptate iste molestiae
-          impedit saepe nostrum ipsum dolor sequi doloremque delectus ad, facere
-          quis quam consequatur, quae cupiditate adipisci officia! Aperiam, rem,
-          dolorem omnis autem consequuntur hic soluta molestiae consequatur
-          cupiditate natus quisquam? Nemo blanditiis ab nulla saepe sunt
-          doloremque laboriosam consectetur laborum animi alias. Iure,
-          dignissimos velit enim commodi praesentium fugiat labore, incidunt
-          neque vero iusto omnis magnam aperiam natus rem eligendi quis
-          provident inventore eveniet sequi, libero facere! Sequi esse fugiat
-          saepe id? Accusantium ipsa vel sed debitis consequuntur aliquid
-          mollitia saepe veniam commodi iusto dolores sint, officia totam
-          cupiditate quas soluta blanditiis. Quam, expedita, explicabo nulla
-          distinctio itaque, dolore accusantium placeat iure ea reprehenderit
-          facilis ipsa nobis rerum sunt? Veritatis, magnam ratione! Nulla optio
-          consectetur animi soluta? Libero illo veniam voluptatum, assumenda ab
-          dicta quae mollitia reiciendis quo magnam blanditiis aliquid quos
-          ipsum culpa maiores deserunt, adipisci neque alias placeat corporis
-          nulla officia. Sint autem repellat maxime doloremque esse voluptates
-          commodi ex eius optio explicabo? Rerum eveniet omnis fuga reiciendis,
-          esse molestias ratione.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo deserunt
+            fuga similique adipisci eum, laudantium aliquid. Veniam, quam
+            exercitationem mollitia aliquam sint autem earum accusamus voluptates,
+            quos repudiandae eaque blanditiis numquam inventore in dignissimos
+            laborum, voluptatum optio dolorum ea quo magnam doloribus fugit.
+            Accusantium, laborum sequi tempora natus, provident, voluptates
+            repellat dolorem placeat vero amet debitis. Provident temporibus
+            architecto hic, aliquid, voluptatem rem maiores iste reprehenderit vel
+            quos impedit molestiae incidunt nemo earum ipsum, unde quasi alias
+            doloremque cumque iure animi sit! Sed tempore voluptate iste molestiae
+            impedit saepe nostrum ipsum dolor sequi doloremque delectus ad, facere
+            quis quam consequatur, quae cupiditate adipisci officia! Aperiam, rem,
+            dolorem omnis autem consequuntur hic soluta molestiae consequatur
+            cupiditate natus quisquam? Nemo blanditiis ab nulla saepe sunt
+            doloremque laboriosam consectetur laborum animi alias. Iure,
+            dignissimos velit enim commodi praesentium fugiat labore, incidunt
+            neque vero iusto omnis magnam aperiam natus rem eligendi quis
+            provident inventore eveniet sequi, libero facere! Sequi esse fugiat
+            saepe id? Accusantium ipsa vel sed debitis consequuntur aliquid
+            mollitia saepe veniam commodi iusto dolores sint, officia totam
+            cupiditate quas soluta blanditiis. Quam, expedita, explicabo nulla
+            distinctio itaque, dolore accusantium placeat iure ea reprehenderit
+            facilis ipsa nobis rerum sunt? Veritatis, magnam ratione! Nulla optio
+            consectetur animi soluta? Libero illo veniam voluptatum, assumenda ab
+            dicta quae mollitia reiciendis quo magnam blanditiis aliquid quos
+            ipsum culpa maiores deserunt, adipisci neque alias placeat corporis
+            nulla officia. Sint autem repellat maxime doloremque esse voluptates
+            commodi ex eius optio explicabo? Rerum eveniet omnis fuga reiciendis,
+            esse molestias ratione.
         </p>
         <h2 class="content-text">Brady</h2>
         <p class="content-text plain-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aut
-          incidunt unde rerum. Obcaecati, error minus, dolore temporibus a
-          libero ex commodi dolorem alias ea harum nobis. Repellat soluta,
-          doloribus harum inventore natus illum? Facilis commodi ipsa error
-          dicta, quisquam in, explicabo obcaecati doloribus maiores,
-          reprehenderit minus ea natus voluptatibus aperiam atque at vitae?
-          Molestias sint eius aspernatur. Reprehenderit, impedit tempora! Harum,
-          reiciendis voluptatum molestias est quo dolor ipsum repudiandae saepe
-          non quidem corporis ex mollitia earum! Praesentium earum provident ex
-          architecto totam nostrum omnis iusto dolor aliquid, ab doloribus unde
-          nisi mollitia obcaecati eum rem exercitationem accusamus at. Beatae
-          quam assumenda officia hic error tenetur eius perspiciatis consectetur
-          inventore, quibusdam alias, similique aut. Suscipit odio temporibus
-          dicta, autem a laborum odit? Labore provident, doloremque, facilis
-          laboriosam sit qui minus delectus tempora, perspiciatis maiores rem
-          incidunt ullam excepturi laborum est suscipit quis cumque! Animi
-          quisquam facere blanditiis molestiae iste illum perspiciatis vitae
-          facilis ducimus esse maxime laborum, ipsam est ad asperiores veniam,
-          odio quae dolor vero perferendis, error doloribus? Ipsam explicabo
-          tempore aliquid molestias alias facere quas ex consequatur rerum
-          aspernatur placeat minus ipsa dolor magnam eos fuga officiis dolore
-          suscipit veniam, quia nihil dolorem eveniet illum libero. Id expedita
-          eaque aut temporibus perspiciatis ipsum cupiditate sunt sequi
-          architecto! Ratione veritatis minima suscipit iure modi omnis dicta.
-          Inventore labore, doloribus provident temporibus laudantium molestias,
-          sapiente porro libero fugit sit aperiam sunt! Ratione error cum
-          laudantium architecto corporis. Nostrum, ipsam culpa! Totam,
-          consequatur ullam eligendi doloremque impedit pariatur odio nulla
-          veniam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aut
+            incidunt unde rerum. Obcaecati, error minus, dolore temporibus a
+            libero ex commodi dolorem alias ea harum nobis. Repellat soluta,
+            doloribus harum inventore natus illum? Facilis commodi ipsa error
+            dicta, quisquam in, explicabo obcaecati doloribus maiores,
+            reprehenderit minus ea natus voluptatibus aperiam atque at vitae?
+            Molestias sint eius aspernatur. Reprehenderit, impedit tempora! Harum,
+            reiciendis voluptatum molestias est quo dolor ipsum repudiandae saepe
+            non quidem corporis ex mollitia earum! Praesentium earum provident ex
+            architecto totam nostrum omnis iusto dolor aliquid, ab doloribus unde
+            nisi mollitia obcaecati eum rem exercitationem accusamus at. Beatae
+            quam assumenda officia hic error tenetur eius perspiciatis consectetur
+            inventore, quibusdam alias, similique aut. Suscipit odio temporibus
+            dicta, autem a laborum odit? Labore provident, doloremque, facilis
+            laboriosam sit qui minus delectus tempora, perspiciatis maiores rem
+            incidunt ullam excepturi laborum est suscipit quis cumque! Animi
+            quisquam facere blanditiis molestiae iste illum perspiciatis vitae
+            facilis ducimus esse maxime laborum, ipsam est ad asperiores veniam,
+            odio quae dolor vero perferendis, error doloribus? Ipsam explicabo
+            tempore aliquid molestias alias facere quas ex consequatur rerum
+            aspernatur placeat minus ipsa dolor magnam eos fuga officiis dolore
+            suscipit veniam, quia nihil dolorem eveniet illum libero. Id expedita
+            eaque aut temporibus perspiciatis ipsum cupiditate sunt sequi
+            architecto! Ratione veritatis minima suscipit iure modi omnis dicta.
+            Inventore labore, doloribus provident temporibus laudantium molestias,
+            sapiente porro libero fugit sit aperiam sunt! Ratione error cum
+            laudantium architecto corporis. Nostrum, ipsam culpa! Totam,
+            consequatur ullam eligendi doloremque impedit pariatur odio nulla
+            veniam.
         </p>
-      </div>
-      <div id="elements-of-form-and-style" style="display: none">
+    </div>
+    <div id="elements-of-form-and-style" style="display: none">
         <h1 class="content-title">Literary Devices</h1>
         <p class="content-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          animi hic voluptate recusandae necessitatibus quas soluta illum eum,
-          laborum expedita distinctio tempora tenetur ab velit, cum aperiam
-          perferendis amet modi. Sequi, tempora quasi inventore odit explicabo
-          est porro iure facilis ex sunt id necessitatibus suscipit
-          exercitationem natus eius dolores nihil repellendus quia dolore magnam
-          repellat ea iusto. Cumque dolorum pariatur modi eveniet, dignissimos
-          enim. Facilis voluptatibus nisi officiis quasi deleniti sint, omnis
-          explicabo, nulla perferendis, veritatis sed ullam ea consectetur! Vero
-          animi cupiditate voluptatum doloremque laborum, aspernatur impedit,
-          ipsum earum recusandae consequuntur mollitia perspiciatis iusto ullam,
-          inventore eum blanditiis amet autem id? Excepturi eum consequatur
-          perferendis labore molestias! Perspiciatis officia dolores doloremque
-          vitae vel fugit eaque laborum laboriosam atque eos nobis repellendus,
-          dolore quibusdam quam reiciendis omnis ipsam. Tenetur eius rem eum
-          sequi quae. Corrupti illum voluptatum culpa animi suscipit aliquam
-          magnam consequuntur similique dolore incidunt ullam quibusdam nostrum
-          odit laudantium aperiam praesentium debitis laborum molestias voluptas
-          dolorem, amet deserunt? Recusandae, nulla. Totam laudantium doloribus
-          atque laborum nemo et, ipsam corporis obcaecati. Commodi, tempore
-          beatae animi enim dolores itaque? Esse, saepe suscipit quam animi
-          reprehenderit cumque nihil architecto aspernatur maiores. Veniam a ut
-          consequuntur ad repudiandae. Pariatur facere error iure quae. Sint
-          laudantium repellendus soluta nostrum earum similique totam harum ut
-          omnis, reiciendis deleniti dolorem, eligendi, temporibus ullam rem
-          dolorum voluptate perferendis explicabo laborum exercitationem nemo
-          nobis alias non. Iste, maxime nostrum? Hic iste asperiores aliquam
-          harum perferendis, delectus quod quo id ea repellendus dolor omnis
-          ducimus vero maxime doloremque!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            animi hic voluptate recusandae necessitatibus quas soluta illum eum,
+            laborum expedita distinctio tempora tenetur ab velit, cum aperiam
+            perferendis amet modi. Sequi, tempora quasi inventore odit explicabo
+            est porro iure facilis ex sunt id necessitatibus suscipit
+            exercitationem natus eius dolores nihil repellendus quia dolore magnam
+            repellat ea iusto. Cumque dolorum pariatur modi eveniet, dignissimos
+            enim. Facilis voluptatibus nisi officiis quasi deleniti sint, omnis
+            explicabo, nulla perferendis, veritatis sed ullam ea consectetur! Vero
+            animi cupiditate voluptatum doloremque laborum, aspernatur impedit,
+            ipsum earum recusandae consequuntur mollitia perspiciatis iusto ullam,
+            inventore eum blanditiis amet autem id? Excepturi eum consequatur
+            perferendis labore molestias! Perspiciatis officia dolores doloremque
+            vitae vel fugit eaque laborum laboriosam atque eos nobis repellendus,
+            dolore quibusdam quam reiciendis omnis ipsam. Tenetur eius rem eum
+            sequi quae. Corrupti illum voluptatum culpa animi suscipit aliquam
+            magnam consequuntur similique dolore incidunt ullam quibusdam nostrum
+            odit laudantium aperiam praesentium debitis laborum molestias voluptas
+            dolorem, amet deserunt? Recusandae, nulla. Totam laudantium doloribus
+            atque laborum nemo et, ipsam corporis obcaecati. Commodi, tempore
+            beatae animi enim dolores itaque? Esse, saepe suscipit quam animi
+            reprehenderit cumque nihil architecto aspernatur maiores. Veniam a ut
+            consequuntur ad repudiandae. Pariatur facere error iure quae. Sint
+            laudantium repellendus soluta nostrum earum similique totam harum ut
+            omnis, reiciendis deleniti dolorem, eligendi, temporibus ullam rem
+            dolorum voluptate perferendis explicabo laborum exercitationem nemo
+            nobis alias non. Iste, maxime nostrum? Hic iste asperiores aliquam
+            harum perferendis, delectus quod quo id ea repellendus dolor omnis
+            ducimus vero maxime doloremque!
         </p>
-      </div>
-      <div id="interviews" style="display: none">
+    </div>
+    <div id="interviews" style="display: none">
         <h1 class="content-title">Interviews</h1>
         <div class="interview-container">
-          <div class="msg sent">Lorem ipsum dolor sit amet?</div>
-          <div class="msg rcvd">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Accusantium expedita saepe sapiente quod quam, animi, itaque,
-            voluptatum placeat deserunt vitae facilis reiciendis dolore nulla
-            minima dolor cumque nobis aliquam doloribus? Modi dolorum ullam
-            voluptatibus neque reiciendis, quasi nisi? Saepe dolor facere
-            debitis doloremque, nobis ut recusandae libero earum voluptate
-            rerum.
-          </div>
-          <div class="msg sent">Lorem ipsum dolor sit amet?</div>
-          <div class="msg rcvd">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus perspiciatis architecto facilis cumque, numquam sint
-            qui fugit temporibus! Illum dolorem laborum rem in, ad consequatur
-            sit sequi iusto, iste quas consequuntur debitis. Adipisci sapiente
-            ratione, blanditiis nisi est soluta dolore pariatur consequuntur
-            optio possimus id, atque officiis voluptatum. Similique, doloribus.
-          </div>
+            <div class="msg sent">Lorem ipsum dolor sit amet?</div>
+            <div class="msg rcvd">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Accusantium expedita saepe sapiente quod quam, animi, itaque,
+                voluptatum placeat deserunt vitae facilis reiciendis dolore nulla
+                minima dolor cumque nobis aliquam doloribus? Modi dolorum ullam
+                voluptatibus neque reiciendis, quasi nisi? Saepe dolor facere
+                debitis doloremque, nobis ut recusandae libero earum voluptate
+                rerum.
+            </div>
+            <div class="msg sent">Lorem ipsum dolor sit amet?</div>
+            <div class="msg rcvd">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus perspiciatis architecto facilis cumque, numquam sint
+                qui fugit temporibus! Illum dolorem laborum rem in, ad consequatur
+                sit sequi iusto, iste quas consequuntur debitis. Adipisci sapiente
+                ratione, blanditiis nisi est soluta dolore pariatur consequuntur
+                optio possimus id, atque officiis voluptatum. Similique, doloribus.
+            </div>
         </div>
-      </div>
-      <div id="quizzes" style="display: none">
+    </div>
+    <div id="quizzes" style="display: none">
         <h1 class="content-title">Quizzes</h1>
         <h2 class="content-text">Explore Quizzes</h2>
         <div class="quiz-selection-container">
-          <div class="quiz-link-container">
-            <img
-              class="quiz-icon"
-              src="../images/quiz-icon.png"
-              alt="A photo of a question mark"
-            />
-            <a class="quiz-label-text" href="quiz1.html" target="_blank"
-              >Take the (Quiz 1)</a
-            >
-          </div>
-          <div class="quiz-link-container">
-            <img
-              class="quiz-icon"
-              src="../images/quiz-icon.png"
-              alt="A photo of a question mark"
-            />
-            <a class="quiz-label-text" href="quiz2.html" target="_blank"
-              >Take the (Quiz 2)</a
-            >
-          </div>
-          <div class="quiz-link-container">
-            <img
-              class="quiz-icon"
-              src="../images/quiz-icon.png"
-              alt="A photo of a question mark"
-            />
-            <a class="quiz-label-text" href="quiz3.html" target="_blank"
-              >Take the (Quiz 3)</a
-            >
-          </div>
-          <div class="quiz-link-container">
-            <img
-              class="quiz-icon"
-              src="../images/quiz-icon.png"
-              alt="A photo of a question mark"
-            />
-            <a class="quiz-label-text" href="quiz4.html" target="_blank"
-              >Take the (Quiz 4)</a
-            >
-          </div>
-          <div class="quiz-link-container">
-            <img
-              class="quiz-icon"
-              src="../images/quiz-icon.png"
-              alt="A photo of a question mark"
-            />
-            <a class="quiz-label-text" href="quiz5.html" target="_blank"
-              >Take the (Quiz 5)</a
-            >
-          </div>
+            <div class="quiz-link-container">
+                <img
+                        class="quiz-icon"
+                        src="../images/quiz-icon.png"
+                        alt="A photo of a question mark"
+                />
+                <a class="quiz-label-text" href="quiz1.html" target="_blank"
+                >Take the (Quiz 1)</a
+                >
+            </div>
+            <div class="quiz-link-container">
+                <img
+                        class="quiz-icon"
+                        src="../images/quiz-icon.png"
+                        alt="A photo of a question mark"
+                />
+                <a class="quiz-label-text" href="quiz2.html" target="_blank"
+                >Take the (Quiz 2)</a
+                >
+            </div>
+            <div class="quiz-link-container">
+                <img
+                        class="quiz-icon"
+                        src="../images/quiz-icon.png"
+                        alt="A photo of a question mark"
+                />
+                <a class="quiz-label-text" href="quiz3.html" target="_blank"
+                >Take the (Quiz 3)</a
+                >
+            </div>
+            <div class="quiz-link-container">
+                <img
+                        class="quiz-icon"
+                        src="../images/quiz-icon.png"
+                        alt="A photo of a question mark"
+                />
+                <a class="quiz-label-text" href="quiz4.html" target="_blank"
+                >Take the (Quiz 4)</a
+                >
+            </div>
+            <div class="quiz-link-container">
+                <img
+                        class="quiz-icon"
+                        src="../images/quiz-icon.png"
+                        alt="A photo of a question mark"
+                />
+                <a class="quiz-label-text" href="quiz5.html" target="_blank"
+                >Take the (Quiz 5)</a
+                >
+            </div>
         </div>
-      </div>
     </div>
-    <footer>
-      <h3>
+</div>
+<footer>
+    <h3>
         The #1 study site for <span style="font-style: italic">Strangers</span>
-      </h3>
-      <a
-        class="footer-button"
-        href="mailto:ddai@southridge.bc.ca"
-        target="_blank"
-        >Contact Us</a
-      >
-      <a
-        class="footer-button"
-        href="https://www.youtube.com/watch?v=SB-qEYVdvXA"
-        target="_blank"
-        >Terms of Service</a
-      >
-      <a
-        class="footer-button"
-        href="https://www.youtube.com/watch?v=SB-qEYVdvXA"
-        target="_blank"
-        >Privacy</a
-      >
-    </footer>
-  </body>
-  <script src="../js/script.js"></script>
+    </h3>
+    <a
+            class="footer-button"
+            href="mailto:ddai@southridge.bc.ca"
+            target="_blank"
+    >Contact Us</a
+    >
+    <a
+            class="footer-button"
+            href="https://www.youtube.com/watch?v=SB-qEYVdvXA"
+            target="_blank"
+    >Terms of Service</a
+    >
+    <a
+            class="footer-button"
+            href="https://www.youtube.com/watch?v=SB-qEYVdvXA"
+            target="_blank"
+    >Privacy</a
+    >
+</footer>
+</body>
+<script src="../js/script.js"></script>
 </html>
