@@ -71,32 +71,55 @@
   const submitButton = document.getElementById("submit");
   const myQuestions = [
     {
-      question: "Who invented JavaScript?",
+      question: "1. How does Cole receive the message from Ashley?",
       answers: {
-        a: "Douglas Crockford",
-        b: "Sheryl Sandberg",
-        c: "Brendan Eich",
+        a: "Through an email",
+        b: "Through a text",
+        c: "Ashley visits him",
+        d: "He sees Ashley through a vision",
+      },
+      correctAnswer: "b",
+    },
+    {
+      question: "2. Why does Cole have a panic attack in the hockey rink?",
+      answers: {
+        a: "The doctor tells him that he's not doing it right",
+        b: "His friends tell him to stop",
+        c: "People yell at him for trying to save the Chief",
+        d: "He is reminded of the Wounded Sky fire",
       },
       correctAnswer: "c",
     },
     {
-      question: "Which one of these is a JavaScript package manager?",
+      question:
+        "3. What does Cole do after he is accused of murder by Mark at Chief Crate's funeral?",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm",
+        a: "He talks to Elder Mariah",
+        b: "He calls his grandmother",
+        c: "He talks with his friends, who comfort him",
+        d: "He walks Alex home",
       },
-      correctAnswer: "c",
+      correctAnswer: "b",
     },
     {
-      question: "Which tool can you use to ensure code quality?",
+      question: "4. What makes Tristan and Maggie break up?",
       answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint",
+        a: "Tristan overhears Maggie insulting him",
+        b: "They get into a public argument",
+        c: "Maggie spills beer on Tristan's pants",
+        d: "Jayne spills beer on Tristan's pants",
       },
       correctAnswer: "d",
+    },
+    {
+      question: "5. What causes Cole to be stabbed by Scott?",
+      answers: {
+        a: "He assumes that Scott is unconscious",
+        b: "He lunges at Scott and he stabs Cole",
+        c: "Scott tries to shoot Eva but Cole jumps to protect her",
+        d: "Scott lunges at him and pins him to the ground",
+      },
+      correctAnswer: "a",
     },
   ];
 

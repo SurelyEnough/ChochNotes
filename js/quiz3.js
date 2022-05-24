@@ -71,30 +71,44 @@
   const submitButton = document.getElementById("submit");
   const myQuestions = [
     {
-      question: "Who invented JavaScript?",
+      question:
+        "1. Pick the best descriptor of Cole and his friends' relationship at the beginning of the novel:",
       answers: {
-        a: "Douglas Crockford",
-        b: "Sheryl Sandberg",
-        c: "Brendan Eich",
+        a: "Reunited",
+        b: "Strained",
+        c: "Broken",
+      },
+      correctAnswer: "b",
+    },
+    {
+      question: "2. What event first forces Cole and his friends to reunite?",
+      answers: {
+        a: "Cole having a panic attack in the hockey rink",
+        b: "Mark accusing Cole of murder",
+        c: "Alex's death",
+        d: "Ashley's death",
+      },
+      correctAnswer: "d",
+    },
+    {
+      question:
+        "3. Why does Eva say to Cole that they became 'all different' at the Northern Lights Diner?",
+      answers: {
+        a: "Years passed since they all were together",
+        b: "Ashley and Alex died",
+        c: "The fire traumatized them",
+        d: "Cole left and abandoned his friends",
       },
       correctAnswer: "c",
     },
     {
-      question: "Which one of these is a JavaScript package manager?",
+      question:
+        "4. Cole says at the end of the book, 'I'd like to come back [to Wounded Sky]'. Why did he have a change of heart from the beginning of the novel?",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm",
-      },
-      correctAnswer: "c",
-    },
-    {
-      question: "Which tool can you use to ensure code quality?",
-      answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint",
+        a: "He will miss his friends",
+        b: "He wants Eva to feel better",
+        c: "He knows his community trusts him",
+        d: "He has reunited his community and friends",
       },
       correctAnswer: "d",
     },
