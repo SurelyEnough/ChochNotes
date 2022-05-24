@@ -113,7 +113,7 @@
     },
     {
       question:
-        "What are Cole's emotions when he responds to the gunman for the second time?",
+        "5. What are Cole's emotions when he responds to the gunman for the second time?",
       answers: {
         a: "He is calm because of Eva holding him at gunpoint",
         b: "He is extremely scared and has a panic attack",
