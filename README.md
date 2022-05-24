@@ -1,4 +1,5 @@
 # ChochNotes
+ChochNotes is live at [chochnotes.cf](http://chochnotes.cf)
 An English project study guide for the David A. Robertson novel Strangers. This repository is, by the way, probably pointless.
 
 ## Credits
