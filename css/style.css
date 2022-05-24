@@ -188,6 +188,11 @@ footer {
   margin: 30px 30px 30px 0;
 }
 
+.question {
+  color: rgb(42, 59, 169);
+  font-style: italic;
+}
+
 .answers {
   display: flex;
   flex-direction: column;

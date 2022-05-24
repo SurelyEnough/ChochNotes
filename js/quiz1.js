@@ -71,7 +71,8 @@
   const submitButton = document.getElementById("submit");
   const myQuestions = [
     {
-      question: "Who invented JavaScript?",
+      question:
+        "Pick the best descriptor of Cole's initial feelings to return to Wounded Sky:",
       answers: {
         a: "Douglas Crockford",
         b: "Sheryl Sandberg",
