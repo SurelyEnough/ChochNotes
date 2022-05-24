@@ -71,32 +71,54 @@
   const submitButton = document.getElementById("submit");
   const myQuestions = [
     {
-      question: "Who invented JavaScript?",
+      question: "1. What does Alex say to Cole about Mark's accusations?",
       answers: {
-        a: "Douglas Crockford",
-        b: "Sheryl Sandberg",
-        c: "Brendan Eich",
+        a: "That he saved Brady and Eva, and if he hadn't there would be two more graves",
+        b: "That Mark is a whiny b**ch",
+        c: "That it's time for Cole to face his past and free his guilt",
       },
-      correctAnswer: "c",
+      correctAnswer: "a",
     },
     {
-      question: "Which one of these is a JavaScript package manager?",
+      question: "2. Which one of these is NOT a contributor to Cole's trauma?",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm",
+        a: "Leaving his friends",
+        b: "Guilt related to the fire",
+        c: "Not saving Jayne",
       },
-      correctAnswer: "c",
+      correctAnswer: "a",
     },
     {
-      question: "Which tool can you use to ensure code quality?",
+      question:
+        "3. Pick the most (implied) important exhibition of heroism in Cole:",
       answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint",
+        a: "Showing resilience when Mark accuses him of murder",
+        b: "Comforting and talking with Alex",
+        c: "Returning to Wounded Sky",
+        d: "Being determined to find Ashley and Alex's killer",
       },
       correctAnswer: "d",
+    },
+    {
+      question:
+        "4. Pick the best description of Cole's responses to Mark's accusations",
+      answers: {
+        a: "He comments on how nobody else has done anything",
+        b: "He fires back with angry statements",
+        c: "He tries to unite his community by acknowledging his mistakes",
+        d: "He argues back with the help of his friends",
+      },
+      correctAnswer: "b",
+    },
+    {
+      question: "5. How does Cole show heroism confronting the gunman?",
+      answers: {
+        a: "He risks everything to warn Wayne of the danger Eva's in",
+        b: "He disarms Scott by using Jayne's heat",
+        c: "He protects Eva and his friends with his strength",
+        d: "He lunges at him and pins him to the ground",
+      },
+      correctAnswer: "c",
     },
   ];
 

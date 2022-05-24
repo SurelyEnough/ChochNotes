@@ -72,30 +72,53 @@
   const myQuestions = [
     {
       question:
-        "Pick the best descriptor of Cole's initial feelings to return to Wounded Sky:",
+        "1. Pick the best descriptor of Cole's initial feelings to return to Wounded Sky:",
       answers: {
-        a: "Douglas Crockford",
-        b: "Sheryl Sandberg",
-        c: "Brendan Eich",
+        a: "Nervous",
+        b: "Reluctant",
+        c: "Confused",
+      },
+      correctAnswer: "b",
+    },
+    {
+      question: "2. How does Brady react to seeing Cole in the hockey rink?",
+      answers: {
+        a: "He is disdainful",
+        b: "He is confused, but acts happy",
+        c: "He is welcoming",
       },
       correctAnswer: "c",
     },
     {
-      question: "Which one of these is a JavaScript package manager?",
+      question:
+        "3. How do Cole's friends feel about him when Mark accuses him of murder at Chief Crate's funeral?",
       answers: {
-        a: "Node.js",
-        b: "TypeScript",
-        c: "npm",
+        a: "They defend Cole",
+        b: "They support Cole but secretly question him",
+        c: "They agree with Mark and question Cole",
+        d: "They say nothing",
+      },
+      correctAnswer: "a",
+    },
+    {
+      question:
+        "4. Pick the best descriptor of Cole and Eva's conversation in the Northern Lights Diner:",
+      answers: {
+        a: "It was awkward and Eva avoided Cole's questions",
+        b: "Eva said that she never liked Michael and missed Cole",
+        c: "They talk about their past but Eva says that they're both different now",
+        d: "Cole reminscences about their childhood but says that it's not the same anymore",
       },
       correctAnswer: "c",
     },
     {
-      question: "Which tool can you use to ensure code quality?",
+      question:
+        "What are Cole's emotions when he responds to the gunman for the second time?",
       answers: {
-        a: "Angular",
-        b: "jQuery",
-        c: "RequireJS",
-        d: "ESLint",
+        a: "He is calm because of Eva holding him at gunpoint",
+        b: "He is extremely scared and has a panic attack",
+        c: "He is angry and immediately attacks him",
+        d: "He is calm but turns angry when Scott attacks him",
       },
       correctAnswer: "d",
     },
